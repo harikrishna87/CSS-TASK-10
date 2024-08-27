@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heading {
+            background-color: lightgray;
+            width: 70%;
+            border-radius: 15px;
+            margin: 50px auto;
+            padding-bottom: 30px;
+        }
+
+        .heading-part {
+            text-align: center;
+        }
+
+        .heading-part h4 {
+            padding-top: 20px;
+            font-size: 20px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            gap: 30px;
+            padding: 15px;
+        }
+
+        .card1 {
+            border: 2px solid black;
+            width: 200px;
+            text-align: center;
+            border-radius: 20px;
+            padding: 40px 15px 15px 15px;
+        }
+
+        .card2 {
+            border: 2px solid black;
+            width: 200px;
+            text-align: center;
+            border-radius: 20px;
+            padding: 0 15px 15px 15px;
+        }
+
+        .card12 p {
+            padding: 10px;
+            background-color: orange;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            position: relative;
+            font-size: 20px;
+            font-weight: 500;
+            top: 0px;
+            margin: 0;
+        }
+
+        .card3 {
+            border: 2px solid black;
+            width: 200px;
+            text-align: center;
+            border-radius: 20px;
+            padding: 40px 15px 15px 15px;
+        }
+
+        .card1 h6, .card2 h6, .card3 h6 {
+            font-size: 25px;
+            margin: 0;
+        }
+
+        .card1 h3,
+        .card2 h3,
+        .card3 h3 {
+            font-size: 25px;
+            color: blue;
+            margin: 0;
+        }
+
+        .card1 h2,
+        .card2 h2,
+        .card3 h2 {
+            font-size: 30px;
+            color: red;
+        }
+
+        .card2 a {
+            text-decoration: none;
+            color: white;
+            background-color: orange;
+            padding: 10px;
+            border-radius: 20px;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        .heading2 {
+            background-color: lightgray;
+            width: 70%;
+            border-radius: 15px;
+            margin: 50px auto;
+            padding: 1px 30px 30px 30px;
+        }
+
+        .heading-part2 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 50px;
+            justify-content: center;
+        }
+
+        .items {
+            display: flex;
+            align-items: center;
+            width: 200px;
+            height: 100px;
+        }
+
+        .items img {
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .items h3,
+        .items p {
+            margin: 0;
+            width: 100%;
+            padding: 1px;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <div class="heading-part">
+            <h4>Start Now</h4>
+            <h1>Your Plan, Your Choice.</h1>
+        </div>
+
+        <div class="cards">
+            <div class="card1">
+                <h6>&#128522;</h6>
+                <h2>Quaterly</h2>
+                <h3>$ 49</h3>
+                <p>No setup fee</p>
+                <p>unlimited products</p>
+                <p>mobile storefront</p>
+                <p>mobile app</p>
+                <a href="#">Get Started</a>
+
+            </div>
+
+            <div class="card2">
+                <div class="card12">
+                    <p>Most Popular</p>
+                </div>
+                <h6>&#128513;</h6>
+                <h2>Half yearly</h2>
+                <h3>$ 99</h3>
+                <p>No setup fee</p>
+                <p>unlimited products</p>
+                <p>mobile storefront</p>
+                <p>mobile app</p>
+                <a href="#">Get Started</a>
+
+            </div>
+
+            <div class="card3">
+                <h6>&#128532;</h6>
+                <h2>Annually</h2>
+                <h3>$ 199</h3>
+                <p>No setup fee</p>
+                <p>unlimited products</p>
+                <p>mobile storefront</p>
+                <p>mobile app</p>
+                <a href="#">Get Started</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="heading2">
+        <h3>Top Sellers</h3>
+        <div class="heading-part2">
+            <div class="items">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoFUx-9c2FS0Flj2pcoApdrBnNW17cXl51Fw&s"
+                    alt="" width="100px">
+                <div class="item">
+                    <h3>Hari</h3>
+                    <p>100 orders</p>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoFUx-9c2FS0Flj2pcoApdrBnNW17cXl51Fw&s"
+                    alt="" width="100px">
+                <div class="item">
+                    <h3>Hari</h3>
+                    <p>100 orders</p>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoFUx-9c2FS0Flj2pcoApdrBnNW17cXl51Fw&s"
+                    alt="" width="100px">
+                <div class="item">
+                    <h3>Hari</h3>
+                    <p>100 orders</p>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoFUx-9c2FS0Flj2pcoApdrBnNW17cXl51Fw&s"
+                    alt="" width="100px">
+                <div class="item">
+                    <h3>Hari</h3>
+                    <p>100 orders</p>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoFUx-9c2FS0Flj2pcoApdrBnNW17cXl51Fw&s"
+                    alt="" width="100px">
+                <div class="item">
+                    <h3>Hari</h3>
+                    <p>100 orders</p>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoFUx-9c2FS0Flj2pcoApdrBnNW17cXl51Fw&s"
+                    alt="" width="100px">
+                <div class="item">
+                    <h3>Hari</h3>
+                    <p>100 orders</p>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoFUx-9c2FS0Flj2pcoApdrBnNW17cXl51Fw&s"
+                    alt="" width="100px">
+                <div class="item">
+                    <h3>Hari</h3>
+                    <p>100 orders</p>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoFUx-9c2FS0Flj2pcoApdrBnNW17cXl51Fw&s"
+                    alt="" width="100px">
+                <div class="item">
+                    <h3>Hari</h3>
+                    <p>100 orders</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
